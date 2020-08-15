@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+  },
+  "plugins": ["vue"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "all"
+      }
+    ]
+  }
+}
